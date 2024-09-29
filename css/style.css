@@ -223,12 +223,12 @@ section {
 }
 
 /* ! Footer */
-.footer {
-  padding: 10px 0;
-}
 .main {
   display: flex;
   flex-wrap: wrap;
+}
+.footer {
+  padding: 10px 0;
 }
 .col {
   width: 25%;
@@ -256,7 +256,7 @@ section {
   font-size: 1.2rem;
   display: block;
   text-transform: capitalize;
-  transition: 0.4s;
+  transition: .4s;
 }
 .col ul li a:hover {
   color: var(--text-color);
@@ -378,6 +378,3 @@ section {
 .copwrite span {
   color: var(--main-color);
 }
-
-
-
